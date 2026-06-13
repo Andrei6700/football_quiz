@@ -82,7 +82,8 @@ namespace Football_Quiz.Tests
             IScoreStrategy strategy = new ClassicScoreStrategy();
 
             // Act & Assert
-            Assert.Throws<ArgumentNullException>(() => {
+            Assert.Throws<ArgumentNullException>(() =>
+            {
                 var manager = new QuizManager(null, strategy);
             });
         }
@@ -94,7 +95,8 @@ namespace Football_Quiz.Tests
             var questions = new List<QuizQuestion>();
 
             // Act & Assert
-            Assert.Throws<ArgumentNullException>(() => {
+            Assert.Throws<ArgumentNullException>(() =>
+            {
                 var manager = new QuizManager(questions, null);
             });
         }
