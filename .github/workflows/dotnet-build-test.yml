@@ -1,0 +1,48 @@
+name: .NET Framework Build and Test
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1.2.0
+
+    - name: Restore NuGet Packages
+      run: nuget restore Football_Quiz.sln
+
+    - name: Build Solution
+      run: msbuild Football_Quiz.sln /p:Configuration=Debug
+
+    - name: Run Tests
+      run: dotnet test --no-build
+
+    - name: Static Code Analysis (dotnet format)
+      run: dotnet format --verify-no-changes --verbosity normal
+
+    - name: Deploy Step (Copy files to deploy directory)
+      run: |
+        mkdir deploy
+        copy Football_Quiz\bin\Debug\Football_Quiz.exe deploy\
+        copy Football_Quiz\bin\Debug\Football_Quiz.exe.config deploy\
+        copy Football_Quiz\bin\Debug\quiz.json deploy\
+        copy Football_Quiz\bin\Debug\Newtonsoft.Json.dll deploy\
+      shell: cmd
+
+    - name: Upload Deployment Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: football-quiz-release
+        path: deploy/

@@ -1,0 +1,102 @@
+﻿[
+	{
+		"intrebare": "Cine a castigat Cupa Mondiala in 2018?",
+		"optiuni": [ "Germania", "Brazilia", "Franta", "Argentina" ],
+		"raspunsCorect": "Franta"
+	},
+	{
+		"intrebare": "Care echipa are cele mai multe titluri in Liga Campionilor?",
+		"optiuni": [ "Real Madrid", "Barcelona", "Bayern Munchen", "Liverpool" ],
+		"raspunsCorect": "Real Madrid"
+	},
+	{
+		"intrebare": "Cine este cunoscut ca 'Regele Fotbalului'?",
+		"optiuni": [ "Pele", "Maradona", "Messi", "Ronaldo" ],
+		"raspunsCorect": "Pele"
+	},
+	{
+		"intrebare": "Ce jucător a câștigat de mai multe Baloane de Aur?",
+		"optiuni": [ "Lionel Messi", "Cristiano Ronaldo", "Neymar", "Kylian Mbappe" ],
+		"raspunsCorect": "Lionel Messi"
+	},
+	{
+		"intrebare": "În ce an a fost fondat FC Barcelona?",
+		"optiuni": [ "1899", "1902", "1910", "1920" ],
+		"raspunsCorect": "1899"
+	},
+	{
+		"intrebare": "Care echipă națională a câștigat Cupa Mondială de două ori consecutiv?",
+		"optiuni": [ "Italia", "Brazilia", "Germania", "Argentina" ],
+		"raspunsCorect": "Italia"
+	},
+	{
+		"intrebare": "Cine a antrenat echipa națională a Italiei la Cupa Mondială 2006?",
+		"optiuni": [ "Marcello Lippi", "Giovanni Trapattoni", "Cesare Maldini", "Arrigo Sacchi" ],
+		"raspunsCorect": "Marcello Lippi"
+	},
+	{
+		"intrebare": "În ce oraș se află stadionul 'Camp Nou'?",
+		"optiuni": [ "Madrid", "Barcelona", "Sevilla", "Valencia" ],
+		"raspunsCorect": "Barcelona"
+	},
+	{
+		"intrebare": "Ce echipă a câștigat Liga Campionilor UEFA în sezonul 2019-2020?",
+		"optiuni": [ "Bayern Munchen", "Liverpool", "Paris Saint-Germain", "Real Madrid" ],
+		"raspunsCorect": "Bayern Munchen"
+	},
+	{
+		"intrebare": "Cine este cel mai bun marcator din istoria Ligii Campionilor?",
+		"optiuni": [ "Cristiano Ronaldo", "Lionel Messi", "Raul", "Robert Lewandowski" ],
+		"raspunsCorect": "Cristiano Ronaldo"
+	},
+	{
+		"intrebare": "Care țară a găzduit Cupa Mondială în 2014?",
+		"optiuni": [ "Brazilia", "Germania", "Africa de Sud", "Rusia" ],
+		"raspunsCorect": "Brazilia"
+	},
+	{
+		"intrebare": "Ce echipă a câștigat primul titlu în Premier League?",
+		"optiuni": [ "Manchester United", "Blackburn Rovers", "Arsenal", "Liverpool" ],
+		"raspunsCorect": "Manchester United"
+	},
+	{
+		"intrebare": "Cine a fost transferul record în fotbal (până în prezent)?",
+		"optiuni": [ "Neymar", "Cristiano Ronaldo", "Kylian Mbappe", "Paul Pogba" ],
+		"raspunsCorect": "Neymar"
+	},
+	{
+		"intrebare": "Ce jucător este cunoscut sub numele de 'El Fenómeno'?",
+		"optiuni": [ "Ronaldo Nazário", "Ronaldinho", "Rivaldo", "Roberto Carlos" ],
+		"raspunsCorect": "Ronaldo Nazário"
+	},
+	{
+		"intrebare": "Care este echipa cu cel mai mare număr de titluri în Serie A?",
+		"optiuni": [ "Juventus", "AC Milan", "Inter Milano", "Napoli" ],
+		"raspunsCorect": "Juventus"
+	},
+	{
+		"intrebare": "Cine a fost antrenorul echipei Manchester United când au câștigat treble-ul în 1999?",
+		"optiuni": [ "Alex Ferguson", "José Mourinho", "Arsène Wenger", "Pep Guardiola" ],
+		"raspunsCorect": "Alex Ferguson"
+	},
+	{
+		"intrebare": "Ce echipă a câștigat UEFA Europa League în sezonul 2020-2021?",
+		"optiuni": [ "Villarreal", "Manchester United", "Arsenal", "Sevilla" ],
+		"raspunsCorect": "Villarreal"
+	},
+	{
+		"intrebare": "Cine a câștigat Balonul de Aur în 2021?",
+		"optiuni": [ "Lionel Messi", "Robert Lewandowski", "Jorginho", "Kevin De Bruyne" ],
+		"raspunsCorect": "Lionel Messi"
+	},
+	{
+		"intrebare": "În ce an a fost inaugurat stadionul Camp Nou?",
+		"optiuni": [ "1957", "1960", "1954", "1962" ],
+		"raspunsCorect": "1957"
+	},
+	{
+		"intrebare": "Ce echipă este cunoscută sub porecla 'The Red Devils'?",
+		"optiuni": [ "Manchester United", "Liverpool", "Arsenal", "Chelsea" ],
+		"raspunsCorect": "Manchester United"
+	}
+]

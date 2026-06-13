@@ -1,0 +1,26 @@
+## Ignore Visual Studio temp files, build results, and user settings
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userprev
+*.useroverride
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Re]leases/
+x64/
+x86/
+build/
+bin/
+obj/
+
+# Package restore namespaces
+packages/
+!**/packages.config
+
+# VS temp folders
+.vs/
